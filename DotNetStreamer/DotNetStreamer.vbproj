@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5885DB60-99E2-4CFB-8A88-341426C59903}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DotNetStreamer.My.MyApplication</StartupObject>
+    <RootNamespace>DotNetStreamer</RootNamespace>
+    <AssemblyName>.NET Streamer</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>ftp://ftp.cluster1.easy-hebergement.net/dotnetbin/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://dotnetstreamer.com/dotnetbin/</InstallUrl>
+    <SupportUrl>http://dotnetstreamer.com</SupportUrl>
+    <ErrorReportUrl>http://dotnetstreamer.com</ErrorReportUrl>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>.NET Streamer</ProductName>
+    <PublisherName>TRANSLU6DE</PublisherName>
+    <SuiteName>TRANSLU6DE</SuiteName>
+    <MinimumRequiredVersion>4.0.0.4</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>4.0.0.4</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ns.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>NET Streamer.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>NET Streamer.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>NET Streamer.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>NET Streamer.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8761C244B60CC822250EC12893CF731FA609F854</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DotNetStreamer_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZipForge, Version=3.0.3.0, Culture=neutral, PublicKeyToken=3a6e82ca8e39718a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\ComponentAce\ZipForge.NET\Bin\ZipForge.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Classes\DelayedExecution.vb" />
+    <Compile Include="Classes\Downloader\DownloadClass.vb" />
+    <Compile Include="Classes\Downloader\FileStructure.vb" />
+    <Compile Include="Classes\Downloader\ManagerClass.vb" />
+    <Compile Include="Classes\Extensions\Extensions.vb" />
+    <Compile Include="Classes\GUI\PanelManager.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Network\Icefilms.vb" />
+    <Compile Include="Classes\Network\JSONPopularMovies.vb" />
+    <Compile Include="Classes\Network\Primewire.vb" />
+    <Compile Include="Classes\Network\ShowsMoviesFetch.vb" />
+    <Compile Include="Classes\Network\SolveMedia.vb" />
+    <Compile Include="Classes\Network\TMDB.vb" />
+    <Compile Include="Classes\Others\ClickOnce.vb" />
+    <Compile Include="Classes\Downloader\DownloadHelper.vb" />
+    <Compile Include="Classes\GUI\clsLayeredForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Network\HTTP.vb" />
+    <Compile Include="Classes\GUI\MetroControls.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Others\KeyboardHook.vb" />
+    <Compile Include="Classes\Others\MouseHook.vb" />
+    <Compile Include="Classes\Others\SeekPosition.vb" />
+    <Compile Include="Classes\Others\Settings.vb" />
+    <Compile Include="Classes\Network\UsersMonitoring.vb" />
+    <Compile Include="Classes\Others\OLDSetupVlc.vb" />
+    <Compile Include="Classes\Others\SetupVLC.vb" />
+    <Compile Include="Classes\Others\SubtitleParser.vb" />
+    <Compile Include="Forms\frmExitVideoMode.Designer.vb">
+      <DependentUpon>frmExitVideoMode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmExitVideoMode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPlayControls.Designer.vb">
+      <DependentUpon>frmPlayControls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPlayControls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDownload.Designer.vb">
+      <DependentUpon>frmDownload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDownload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmResync.Designer.vb">
+      <DependentUpon>frmResync.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmResync.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCaptcha.Designer.vb">
+      <DependentUpon>frmCaptcha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCaptcha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPreferences.Designer.vb">
+      <DependentUpon>frmPreferences.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPreferences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmClickOnce.Designer.vb">
+      <DependentUpon>frmClickOnce.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmClickOnce.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSubtitles.Designer.vb">
+      <DependentUpon>frmSubtitles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSubtitles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSubtitlesDownloader.Designer.vb">
+      <DependentUpon>frmSubtitlesDownloader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSubtitlesDownloader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSetupVLC.Designer.vb">
+      <DependentUpon>frmSetupVLC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSetupVLC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUpdate.Designer.vb">
+      <DependentUpon>frmUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUpdateLog.Designer.vb">
+      <DependentUpon>frmUpdateLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUpdateLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHint.Designer.vb">
+      <DependentUpon>frmHint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVLCDrawing.designer.vb">
+      <DependentUpon>frmVLCDrawing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVLCDrawing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVlcFullSetup.designer.vb">
+      <DependentUpon>frmVlcFullSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVlcFullSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NativeMethods.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Classes\Network\SeriesClass.vb" />
+    <Compile Include="Classes\Network\SubtitlesClass.vb" />
+    <Compile Include="Classes\Others\SharedContent.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmExitVideoMode.resx">
+      <DependentUpon>frmExitVideoMode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPlayControls.resx">
+      <DependentUpon>frmPlayControls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHint.resx">
+      <DependentUpon>frmHint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDownload.resx">
+      <DependentUpon>frmDownload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmResync.resx">
+      <DependentUpon>frmResync.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCaptcha.resx">
+      <DependentUpon>frmCaptcha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPreferences.resx">
+      <DependentUpon>frmPreferences.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmClickOnce.resx">
+      <DependentUpon>frmClickOnce.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSubtitles.resx">
+      <DependentUpon>frmSubtitles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSubtitlesDownloader.resx">
+      <DependentUpon>frmSubtitlesDownloader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSetupVLC.resx">
+      <DependentUpon>frmSetupVLC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUpdate.resx">
+      <DependentUpon>frmUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUpdateLog.resx">
+      <DependentUpon>frmUpdateLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVLCDrawing.resx">
+      <DependentUpon>frmVLCDrawing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVlcFullSetup.resx">
+      <DependentUpon>frmVlcFullSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DotNetStreamer_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WindowsApplication4.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animated_loader.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+    <None Include="Resources\ZipForge.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ns.ico" />
+    <None Include="Resources\tumblr_mjphnqLpNy1s5jjtzo1_400.gif" />
+    <None Include="Resources\noimage.png" />
+    <None Include="Resources\synchonize.png" />
+    <None Include="Resources\enable sub.png" />
+    <None Include="Resources\load up.png" />
+    <None Include="Resources\fullscreeniconcms.png" />
+    <None Include="Resources\1397337532_Streamline-46.png" />
+    <None Include="Resources\1397337485_fullscreen_alt.png" />
+    <None Include="Resources\fullscreenlightgray.png" />
+    <None Include="Resources\fullscreenwhite.png" />
+    <None Include="Resources\1396563227_24.png" />
+    <None Include="Resources\scandal-poster.jpg" />
+    <None Include="Resources\Blank.cur" />
+    <None Include="Resources\1378240352_Error.png" />
+    <None Include="Resources\TgDwcOS.png" />
+    <None Include="Resources\1378230848_keditbookmarks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxAXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

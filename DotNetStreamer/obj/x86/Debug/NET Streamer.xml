@@ -1,0 +1,454 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+.NETStreamer
+</name>
+</assembly>
+<members>
+<member name="P:DotNetStreamer.ManagerClass.MaxDownloads">
+	<summary>
+ Get or Set the number of Maximum Downloads.
+ This number MUST BE GREATER THAN ZERO.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.CurrentDownloads">
+	<summary>
+ Returns the number of currently active downloads.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.AutoDownload">
+	<summary>
+ If True, the ManagerClass will automatically start the items that are added
+ if they can be started (if the Maximum Downloads has room for one more).
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.CurrentDownloadList">
+	<summary>
+ Returns the current DownloadList object.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.RunList">
+	<summary>
+ Reruns the Download List to start downloads IF the max downloads hasn't been reached or if the item hasn't been started.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.Add(DotNetStreamer.FileData)">
+	<summary>
+ Add a new item to the Download List.
+ </summary>
+	<param name="FD">The new FileData to add.</param>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.Remove(System.String)">
+	<summary>
+ Remove an item from the Download List.
+ </summary>
+	<param name="FileName">The Filename to remove.</param>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.CheckForItemInList(DotNetStreamer.FileData)">
+	<summary>
+ Check for an existing item in the queue list.
+ </summary>
+	<param name="FD">The FileData to use to compare to.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.ReduceDownloads">
+	<summary>
+ Internal sub used to stop downloads if necessary.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:DotNetStreamer.ManagerClass.ProgressChanged">
+	<summary>
+ This event is raised whenever the progress of a file has changed.
+ </summary>
+	<param name="sender">The Object that raised the event.</param>
+	<param name="e">The ProgressEventArgs Structure.</param>
+	<remarks></remarks>
+</member><member name="E:DotNetStreamer.ManagerClass.ProgressFinished">
+	<summary>
+ This event is raised when the file is finished downloading.
+ </summary>
+	<param name="sender">The Object that raised the event.</param>
+	<param name="e">The File Completion Structure</param>
+	<remarks></remarks>
+</member><member name="E:DotNetStreamer.ManagerClass.FileError">
+	<summary>
+ This event is raised when there was an error somewhere in the queue.
+ </summary>
+	<param name="sender">The Object that raised the event.</param>
+	<param name="e">The structure that contains the information.</param>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.FindDownloader(System.String)">
+	<summary>
+ Finds the specific DownloadClass and exposes it.
+ </summary>
+	<param name="filename">The Filename that the specific DownloadClass is downloading.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.OnProgressChange(DotNetStreamer.ManagerClass.ProgressEventArgs)">
+	<summary>
+ Sub used to handle progress changes and raising the event that goes with it.
+ </summary>
+	<param name="Data">The Progress Event Args Structure.</param>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.OnFileError(DotNetStreamer.ManagerClass.DownloadErrorArgs)">
+	<summary>
+ Called whenever there is an error.
+ </summary>
+	<param name="Data">The Error Structure.</param>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.ManagerClass.OnFileCompletion(DotNetStreamer.ManagerClass.FileCompletionArgs)">
+	<summary>
+ Called when a file is finished.
+ </summary>
+	<param name="Data">The FileCompletionArgs Structure</param>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.ProgressEventArgs.File">
+	<summary>
+ The filename of the item being updated.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.ProgressEventArgs.Speed">
+	<summary>
+ The current speed the item is downloading at.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.ProgressEventArgs.Percentage">
+	<summary>
+ The current percent completion of the item.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.DownloadErrorArgs.File">
+	<summary>
+ The filename that had an error.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.DownloadErrorArgs.Exception">
+	<summary>
+ The exception that was raised.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.ManagerClass.FileCompletionArgs.File">
+	<summary>
+ The name of the file that was completed.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:DotNetStreamer.Utility.Http">
+	<warning>DO NOT REMOVE ANY OF THIS INFORMATION.</warning>
+	<summary>Wrapper for HttpWebRequest/HttpWebResponse to make life easier :D</summary>
+	<author>idb</author>
+	<author_url>http://s.olution.cc/</author_url>
+	<credits>
+ stimms - http://stackoverflow.com/users/361/stimms
+ Eprouvez - http://goo.gl/SLkaV
+ </credits>
+	<remarks>
+ Although this class is open source I DO NOT grant anyone permission to use it in projects for monetary gain.
+ This class is to only be used for educational purposes in open source/freeware projects and if the author (me) is given credit. 
+ Please don't take advantage of my willingness to share code and steal money out of my pocket.
+ </remarks>
+	<thieves>
+ This section is reserved for keeping track of people who have gone against my wishes and are making money off this class without my permission.
+ GeoCoreTV aka TKzGhostRider aka TKzTechnology (Skype: anders18881) - http://goo.gl/E191G (HF Profile) - http://goo.gl/uQuSF (Project)
+ Vb.Doctor (Skype: mirzet943) - http://goo.gl/7qa39 (HF Profile) - http://goo.gl/RdFhd (Project)
+ </thieves>
+	<last_update>Tuesday, July 3, 2012</last_update>
+	<update_history>
+ Friday, January 13, 2012
+          Added another GetUploadResponse method that allows you to pass PostData as Byte().
+ Saturday, January 14, 2012
+         Handled "The underlying connection was closed:" exceptions in ProcessException function.
+         Included Request (HttpWebRequest) object into HttpResponse class.
+ Wednesday, February 22, 2012
+          Accept, Accept-Language, Accept-Encoding will no longer be sent if the property is empty.
+ Tuesday, February 28, 2012
+          Removed some unnecessary DirectCast's in the GetResponse and GetUploadResponse methods.
+ Wednesday, March 21, 2012
+          Handled GMT dates on cookie expiration parsing
+          Added RequestUri/ResponseUri and RequestHeaders/ResponseHeaders to HttpResponse class
+ Sunday, March 25, 2012
+          Added IsValidUri function
+ Tuesday, March 27, 2012
+          Fixed an error in the ParseCookies function
+          Got rid of unnecessary FindCookie functions
+ Wednesday, April 4, 2012
+          Updated ParseCookies, GetCookies, and FindCookie functions
+ Tuesday, May 22, 2012
+          Updated/Consolidated GetResponse and GetUploadResponse methods. 
+          Removed CancelRequest method.
+          Removed ForceHttps property. 
+ Thursday, May 24, 2012
+          Updated GetRedirectUrl function.
+          Replaced GetContentType function with GetMIMEType.
+ Friday, June 1, 2012
+          Added Method parameter to GetResponse methods (now supports PUT as well as GET/POST).
+          Added TimeStampLong function for getting epoch millisecond timestamps.
+          Fixed problem in auto-redirection caused by new Method parameter in GetResponse methods.
+ Monday, June 4, 2012
+          Added Properties UseCustomCookies and CustomCookies (used for sending specific cookies on a per request basis without disturbing the session cookies).
+          Added ImageToBase64/Base64ToString functions.
+ Friday, June 15, 2012
+          Added SendChunked property.
+ Friday, June 23, 2012
+          Fixed bug in GetResponse (Multi-Part) method that caused data to be posted incorrectly
+ Saturday, June 30, 2012
+          Fixed problem with headers in SendRequest method
+          Added CookieBlacklist.
+ Tuesday, July 3, 2012
+          Fixed problem with cookie domain value
+          Handled another auto-redirection method
+ Tuesday, July 10, 2012
+          Added ImageToBytes function.
+ Tuesday, July 17, 2012
+          Added Base36 Encode/Decode functions.
+          Changed a lot of methods over to Shared.
+          Changed IsValidUri function to use RegEx to validate Url instead of depending on an exception. 
+          Updated ParseCookie function due to a problem with parsing dates in which the day didn't match the date.
+ Tuesday, August 7, 2012
+          Fixed bug in Base36Encode function.
+          Turned Option Strict on (you're welcome Deceptive).
+ Saturday, August 11, 2012
+          Fixed bug in GetRedirectUrl
+ Tuesday, August 14, 2012
+          Added AllowMetaRedirect property.
+ Monday, August 27, 2012
+          Added DownloadFile method
+ Wednesday, August 29, 2012
+          Updated IsValidUri regex pattern.
+ Thursday, August 30, 2012
+          Added IsValidIP method.
+ Tuesday, September 11, 2012
+          Added ParseBetweenAll method.
+          Added another GetResponse method.
+          Added GenerateGuid method.
+ </update_history>
+</member><member name="E:DotNetStreamer.DownloadClass.DownloadStarted">
+	<summary>
+ This event is raised whenever a file just started to download.
+ </summary>
+	<param name="file">The Name of the file that just started to download.</param>
+	<remarks></remarks>
+</member><member name="E:DotNetStreamer.DownloadClass.ProgressChanged">
+	<summary>
+ This event is raised whenever the progress of a file has changed.
+ </summary>
+	<param name="file">The Name of the file being downloaded.</param>
+	<param name="speed">The speed of the file (as a string).</param>
+	<param name="percent">The percentage of the file downloaded.</param>
+	<remarks></remarks>
+</member><member name="E:DotNetStreamer.DownloadClass.ProgressFinished">
+	<summary>
+ This event is raised when the file is finished downloading.
+ </summary>
+	<param name="file">The name of the file.</param>
+	<remarks></remarks>
+</member><member name="E:DotNetStreamer.DownloadClass.FileError">
+	<summary>
+ This event is raised when there was an error somewhere in the queue.
+ </summary>
+	<param name="err">The System.Exception that was caught.</param>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.DownloadClass.#ctor(DotNetStreamer.FileData)">
+	<summary>
+ Initialize the Download Class with the new Data.
+ </summary>
+	<param name="FD">The File Data to download.</param>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.DownloadClass.#ctor(System.String,System.String)">
+	<summary>
+ Initialize the Download Class with the new Data
+ </summary>
+	<param name="URL">The URL to download from (Must be a DIRECT URL!)</param>
+	<param name="SaveLocation">The Absolute Location to save the file to.</param>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.DownloadClass.Start">
+	<summary>
+ Start the Download.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.DownloadClass.Abort">
+	<summary>
+ Abort the Download. This will throw an exception.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.DownloadClass.Dispose">
+	<summary>
+ Disposes of the Download Class.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.DownloadClass.op_Equality(DotNetStreamer.DownloadClass,DotNetStreamer.DownloadClass)">
+	<summary>
+ Compares two DownloadClass Structures to see if they are the same.
+ </summary>
+	<param name="DC1">One class to compare.</param>
+	<param name="DC2">The other class to compare.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DotNetStreamer.DownloadClass.op_Inequality(DotNetStreamer.DownloadClass,DotNetStreamer.DownloadClass)">
+	<summary>
+ Compares two DownloadClass Structures to see if they are NOT the same.
+ </summary>
+	<param name="DC1">One class to compare.</param>
+	<param name="DC2">The other class to compare.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.FileData.URL">
+	<summary>
+ Get or Set the URL of the Current Download Item.
+ </summary>
+	<value>The URL to download from.</value>
+	<returns>Returns the current URL of the file.</returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.FileData.SaveTo">
+	<summary>
+ Get or Set the download location of the item. This is the absolute file location, including the filename.
+ </summary>
+	<value>The new location to save to (including filename)</value>
+	<returns>Returns the direct path to save to (including filename)</returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.FileData.FileName">
+	<summary>
+ Returns only the filename of the item to download. (this is pulled from the Filepath)
+ </summary>
+	<value>This is Readonly, you cannot set the FileName.</value>
+	<returns>Returns the FileName.</returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.FileData.FilePath">
+	<summary>
+ Returns the FilePath of the File to be downloaded, excluding the filename.
+ </summary>
+	<value>ReadOnly Property, cannot set the value.</value>
+	<returns>Returns the FilePath of the downloading file.</returns>
+	<remarks></remarks>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources._1378230848_keditbookmarks">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources._1378240352_Error">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources._1397337532_Streamline_46">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.animated_loader">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.Blank">
+	<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.download">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.enable_sub">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.fullscreeniconcms">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.fullscreenlightgray">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.fullscreenwhite">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.load_up">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.noimage">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.NS">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.play">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.synchonize">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.TgDwcOS">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.tumblr_mjphnqLpNy1s5jjtzo1_400">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.XMLFile">
+	<summary>
+  Recherche une chaîne localisée semblable à &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;SettingsXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;SubFont&gt;
+    &lt;FontFamily&gt;Segoe UI Light&lt;/FontFamily&gt;
+    &lt;GraphicsUnit&gt;Point&lt;/GraphicsUnit&gt;
+    &lt;Size&gt;11&lt;/Size&gt;
+    &lt;Style&gt;Regular&lt;/Style&gt;
+  &lt;/SubFont&gt;
+  &lt;SubColor Name="#FFFFFF" Alpha="255" Red="255" Green="255" Blue="255" /&gt;
+  &lt;showHint&gt;true&lt;/showHint&gt;
+  &lt;autoDLSub&gt;false&lt;/autoDLSub&gt;
+  &lt;Language&gt;None&lt;/Language&gt;
+  &lt;Host&gt;Automatic&lt;/Host&gt;
+  &lt;sh [le reste de la chaîne a été tronqué]";.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.ZipForge">
+	<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member><member name="T:DotNetStreamer.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member><member name="M:DotNetStreamer.SubtitleParser.GetCurrentSubFromTime(System.Double,System.Collections.Generic.List{DotNetStreamer.SubtitleParser.SubtitleItem})">
+	<summary>
+ Return a subtitle from the current video time.
+ </summary>
+	<param name="CurrentTime">Current video time, in SECONDS.</param>
+	<param name="SI">List that holds all the subtitles</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

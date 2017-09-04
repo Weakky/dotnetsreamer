@@ -1,0 +1,239 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+.NETStreamer
+</name>
+</assembly>
+<members>
+<member name="F:DotNetStreamer.Dwm.WTNCA_NODRAWCAPTION">
+	<summary>
+ Do Not Draw The Caption (Text)
+ </summary>
+</member><member name="F:DotNetStreamer.Dwm.WTNCA_NODRAWICON">
+	<summary>
+ Do Not Draw the Icon
+ </summary>
+</member><member name="F:DotNetStreamer.Dwm.WTNCA_NOSYSMENU">
+	<summary>
+ Do Not Show the System Menu
+ </summary>
+</member><member name="F:DotNetStreamer.Dwm.WTNCA_NOMIRRORHELP">
+	<summary>
+ Do Not Mirror the Question mark Symbol
+ </summary>
+</member><member name="T:DotNetStreamer.Dwm.WTA_OPTIONS">
+	<summary>
+ The Options of What Attributes to Add/Remove
+ </summary>
+</member><member name="T:DotNetStreamer.Dwm.WindowThemeAttributeType">
+	<summary>
+ What Type of Attributes? (Only One is Currently Defined)
+ </summary>
+</member><member name="M:DotNetStreamer.Dwm.SetWindowThemeAttribute(System.IntPtr,DotNetStreamer.Dwm.WindowThemeAttributeType,DotNetStreamer.Dwm.WTA_OPTIONS@,System.UInt32)">
+	<summary>
+ Set The Window's Theme Attributes
+ </summary>
+	<param name="hWnd">The Handle to the Window</param>
+	<param name="wtype">What Type of Attributes</param>
+	<param name="attributes">The Attributes to Add/Remove</param>
+	<param name="size">The Size of the Attributes Struct</param>
+	<returns>If The Call Was Successful or Not</returns>
+</member><member name="T:DotNetStreamer.Utility.Http">
+	<warning>DO NOT REMOVE ANY OF THIS INFORMATION.</warning>
+	<summary>Wrapper for HttpWebRequest/HttpWebResponse to make life easier :D</summary>
+	<author>idb</author>
+	<author_url>http://s.olution.cc/</author_url>
+	<credits>
+ stimms - http://stackoverflow.com/users/361/stimms
+ Eprouvez - http://goo.gl/SLkaV
+ </credits>
+	<remarks>
+ Although this class is open source I DO NOT grant anyone permission to use it in projects for monetary gain.
+ This class is to only be used for educational purposes in open source/freeware projects and if the author (me) is given credit. 
+ Please don't take advantage of my willingness to share code and steal money out of my pocket.
+ </remarks>
+	<thieves>
+ This section is reserved for keeping track of people who have gone against my wishes and are making money off this class without my permission.
+ GeoCoreTV aka TKzGhostRider aka TKzTechnology (Skype: anders18881) - http://goo.gl/E191G (HF Profile) - http://goo.gl/uQuSF (Project)
+ Vb.Doctor (Skype: mirzet943) - http://goo.gl/7qa39 (HF Profile) - http://goo.gl/RdFhd (Project)
+ </thieves>
+	<last_update>Tuesday, July 3, 2012</last_update>
+	<update_history>
+ Friday, January 13, 2012
+          Added another GetUploadResponse method that allows you to pass PostData as Byte().
+ Saturday, January 14, 2012
+         Handled "The underlying connection was closed:" exceptions in ProcessException function.
+         Included Request (HttpWebRequest) object into HttpResponse class.
+ Wednesday, February 22, 2012
+          Accept, Accept-Language, Accept-Encoding will no longer be sent if the property is empty.
+ Tuesday, February 28, 2012
+          Removed some unnecessary DirectCast's in the GetResponse and GetUploadResponse methods.
+ Wednesday, March 21, 2012
+          Handled GMT dates on cookie expiration parsing
+          Added RequestUri/ResponseUri and RequestHeaders/ResponseHeaders to HttpResponse class
+ Sunday, March 25, 2012
+          Added IsValidUri function
+ Tuesday, March 27, 2012
+          Fixed an error in the ParseCookies function
+          Got rid of unnecessary FindCookie functions
+ Wednesday, April 4, 2012
+          Updated ParseCookies, GetCookies, and FindCookie functions
+ Tuesday, May 22, 2012
+          Updated/Consolidated GetResponse and GetUploadResponse methods. 
+          Removed CancelRequest method.
+          Removed ForceHttps property. 
+ Thursday, May 24, 2012
+          Updated GetRedirectUrl function.
+          Replaced GetContentType function with GetMIMEType.
+ Friday, June 1, 2012
+          Added Method parameter to GetResponse methods (now supports PUT as well as GET/POST).
+          Added TimeStampLong function for getting epoch millisecond timestamps.
+          Fixed problem in auto-redirection caused by new Method parameter in GetResponse methods.
+ Monday, June 4, 2012
+          Added Properties UseCustomCookies and CustomCookies (used for sending specific cookies on a per request basis without disturbing the session cookies).
+          Added ImageToBase64/Base64ToString functions.
+ Friday, June 15, 2012
+          Added SendChunked property.
+ Friday, June 23, 2012
+          Fixed bug in GetResponse (Multi-Part) method that caused data to be posted incorrectly
+ Saturday, June 30, 2012
+          Fixed problem with headers in SendRequest method
+          Added CookieBlacklist.
+ Tuesday, July 3, 2012
+          Fixed problem with cookie domain value
+          Handled another auto-redirection method
+ Tuesday, July 10, 2012
+          Added ImageToBytes function.
+ Tuesday, July 17, 2012
+          Added Base36 Encode/Decode functions.
+          Changed a lot of methods over to Shared.
+          Changed IsValidUri function to use RegEx to validate Url instead of depending on an exception. 
+          Updated ParseCookie function due to a problem with parsing dates in which the day didn't match the date.
+ Tuesday, August 7, 2012
+          Fixed bug in Base36Encode function.
+          Turned Option Strict on (you're welcome Deceptive).
+ Saturday, August 11, 2012
+          Fixed bug in GetRedirectUrl
+ Tuesday, August 14, 2012
+          Added AllowMetaRedirect property.
+ Monday, August 27, 2012
+          Added DownloadFile method
+ Wednesday, August 29, 2012
+          Updated IsValidUri regex pattern.
+ Thursday, August 30, 2012
+          Added IsValidIP method.
+ Tuesday, September 11, 2012
+          Added ParseBetweenAll method.
+          Added another GetResponse method.
+          Added GenerateGuid method.
+ </update_history>
+</member><member name="M:DotNetStreamer.Settings.Serializable.FontX.#ctor">
+	<summary>
+ Intended for xml serialization purposes only
+ </summary>
+</member><member name="M:DotNetStreamer.frmPreferences.HiWord(System.Int32)">
+	<summary>
+ Equivalent to the HiWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member><member name="M:DotNetStreamer.frmUpdate.HiWord(System.Int32)">
+	<summary>
+ Equivalent to the HiWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member><member name="M:DotNetStreamer.frmUpdateLog.HiWord(System.Int32)">
+	<summary>
+ Equivalent to the HiWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member><member name="M:DotNetStreamer.frmMain.HiWord(System.Int32)">
+	<summary>
+ Equivalent to the HiWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member><member name="M:DotNetStreamer.frmSubtitlesDownloader.HiWord(System.Int32)">
+	<summary>
+ Equivalent to the HiWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member><member name="M:DotNetStreamer.frmReSync.HiWord(System.Int32)">
+	<summary>
+ Equivalent to the HiWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources._1378230848_keditbookmarks">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources._1378240352_Error">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.animated_loader">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.Blank">
+	<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.NS">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.play">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.scandal_poster">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.TgDwcOS">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.XMLFile">
+	<summary>
+  Recherche une chaîne localisée semblable à &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;SettingsXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;SubFont&gt;
+    &lt;FontFamily&gt;Segoe UI Light&lt;/FontFamily&gt;
+    &lt;GraphicsUnit&gt;Point&lt;/GraphicsUnit&gt;
+    &lt;Size&gt;11&lt;/Size&gt;
+    &lt;Style&gt;Regular&lt;/Style&gt;
+  &lt;/SubFont&gt;
+  &lt;SubColor Name="#FFFFFF" Alpha="255" Red="255" Green="255" Blue="255" /&gt;
+  &lt;showHint&gt;true&lt;/showHint&gt;
+  &lt;autoDLSub&gt;false&lt;/autoDLSub&gt;
+  &lt;Language&gt;None&lt;/Language&gt;
+  &lt;Host&gt;Automatic&lt;/Host&gt;
+  &lt;sh [le reste de la chaîne a été tronqué]";.
+</summary>
+</member><member name="P:DotNetStreamer.My.Resources.Resources.ZipForge">
+	<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member><member name="T:DotNetStreamer.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+</members>
+</doc>

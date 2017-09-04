@@ -1,0 +1,41 @@
+C:\Users\Utilisateur\Desktop\.NET Streamer\.NET Streamer.exe.config
+C:\Users\Utilisateur\Desktop\.NET Streamer\.NET Streamer.exe
+C:\Users\Utilisateur\Desktop\.NET Streamer\.NET Streamer.pdb
+C:\Users\Utilisateur\Desktop\.NET Streamer\NET Streamer.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\.NET Streamer.exe.config
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\Interop.AXVLC.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\AxInterop.AXVLC.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.vbproj.ResolveComReference.cache
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\.NET Streamer.exe.manifest
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\.NET Streamer.application
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\.NET Streamer.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\.NET Streamer.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\NET Streamer.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\ZipForge.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\Interop.AXVLC.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Debug\AxInterop.AXVLC.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmPlayControls.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmHint.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmDownload.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmReSync.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmMain.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmPreferences.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmClickOnce.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmSubtitles.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmSubtitlesDownloader.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmSetupVLC.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmUpdate.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmUpdateLog.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.Resources.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.vbproj.GenerateResource.Cache
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\.NET Streamer.TrustInfo.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\.NET Streamer.exe.manifest
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\.NET Streamer.application
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\.NET Streamer.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\NET Streamer.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\.NET Streamer.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmVlcFullSetup.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmExitVideoMode.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmVLCDrawing.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.frmCaptcha.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\DotNetStreamer.vbprojResolveAssemblyReference.cache

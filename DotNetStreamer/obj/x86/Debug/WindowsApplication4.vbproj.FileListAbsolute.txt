@@ -1,0 +1,92 @@
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbproj.ResolveComReference.cache
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\WindowsApplication4.exe.config
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\WindowsApplication4.exe
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\WindowsApplication4.pdb
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\WindowsApplication4.xml
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\Interop.WMPLib.dll
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbproj.GenerateResource.Cache
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication4.exe
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication4.xml
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication4.pdb
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\Interop.Shell32.dll
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmMain.resources
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmPreferences.resources
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmSubtitlesDownloader.resources
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmUpdate.resources
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmUpdateLog.resources
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\ZipForge.dll
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\ZipForge.xml
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmReSync.resources
+C:\Users\Utilisateur\Desktop\WindowsApplication4.exe.config
+C:\Users\Utilisateur\Desktop\WindowsApplication4.exe
+C:\Users\Utilisateur\Desktop\WindowsApplication4.pdb
+C:\Users\Utilisateur\Desktop\WindowsApplication4.xml
+C:\Desktop\WindowsApplication4.exe.config
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\Interop.Shell32.dll
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbproj.ResolveComReference.cache
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.exe
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.xml
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.pdb
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmReSync.resources
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmMain.resources
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmPreferences.resources
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmSubtitlesDownloader.resources
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmUpdate.resources
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmUpdateLog.resources
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbproj.GenerateResource.Cache
+C:\Desktop\WindowsApplication4.exe
+C:\Desktop\WindowsApplication4.pdb
+C:\Desktop\WindowsApplication4.xml
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmSubtitles.resources
+C:\Users\Maarten\Desktop\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmHint.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\Interop.Shell32.dll
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbproj.ResolveComReference.cache
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmHint.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmReSync.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmMain.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmPreferences.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmSubtitles.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmSubtitlesDownloader.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmUpdate.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmUpdateLog.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbproj.GenerateResource.Cache
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.exe
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.xml
+C:\Users\Utilisateur\Desktop\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.pdb
+C:\Users\Desktop\WindowsApplication4.exe.config
+C:\Users\Utilisateur\Documents\Desktop\WindowsApplication4.exe.config
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbproj.ResolveComReference.cache
+C:\Users\Utilisateur\Documents\Desktop\WindowsApplication4.exe
+C:\Users\Utilisateur\Documents\Desktop\WindowsApplication4.pdb
+C:\Users\Utilisateur\Documents\Desktop\WindowsApplication4.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmHint.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmReSync.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmMain.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmPreferences.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmSubtitles.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmSubtitlesDownloader.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmUpdate.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmUpdateLog.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbproj.GenerateResource.Cache
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication4.vbprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\.NET Streamer\.NET Streamer.exe.config
+C:\Users\Utilisateur\Desktop\.NET Streamer\.NET Streamer.exe
+C:\Users\Utilisateur\Desktop\.NET Streamer\.NET Streamer.pdb
+C:\Users\Utilisateur\Desktop\.NET Streamer\NET Streamer.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\.NET Streamer.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\NET Streamer.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\.NET Streamer.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Debug\WindowsApplication1.frmPlayControls.resources

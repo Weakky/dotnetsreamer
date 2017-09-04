@@ -1,0 +1,30 @@
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\.NET Streamer.exe.config
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\.NET Streamer.exe.manifest
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\.NET Streamer.application
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\.NET Streamer.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\.NET Streamer.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\NET Streamer.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\ZipForge.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\Interop.WMPLib.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\bin\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.vbprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.vbproj.ResolveComReference.cache
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmPlayControls.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmHint.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmReSync.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmMain.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmPreferences.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmSubtitles.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmSubtitlesDownloader.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmUpdate.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.frmUpdateLog.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.Resources.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\DotNetStreamer.vbproj.GenerateResource.Cache
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\.NET Streamer.TrustInfo.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\.NET Streamer.exe.manifest
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\.NET Streamer.application
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\.NET Streamer.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\NET Streamer.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\DotNet Streamer\DotNet Streamer\WindowsApplication4\obj\x86\Release\.NET Streamer.pdb
