@@ -1,6 +1,8 @@
 # .NET Streamer
 Old home-made popcorn time like application developped in C# (not working anymore).
 
+The code is very old and awful.
+
 It used to work using websites that hosted all kind of movies and tv shows like Icefilms or Primewire.
 
 A complete review with screenshots was made by Softpedia back in the time. [Link here](http://www.softpedia.com/get/Multimedia/Video/Video-Players/NET-Streamer.shtml)
