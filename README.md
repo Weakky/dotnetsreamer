@@ -1,5 +1,5 @@
 # .NET Streamer
-Old home-made popcorn time like application developped in C# (not working anymore).
+Old home-made popcorn time like application developped in VB.NET (not working anymore).
 
 The code is very old and awful.
 
